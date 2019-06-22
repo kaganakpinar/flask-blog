@@ -1,0 +1,8 @@
+{% for category in category %}
+<ul class="list-group">
+  <a href="/categories/{{category.name}}" class="list-group-item list-group-item-action"  style="border-radius:0px">
+    #{{ category.name }}
+    <!--<span class="badge badge-dark float-right"></span>-->
+  </a>
+</ul>
+{% endfor %}
