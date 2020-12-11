@@ -1,13 +1,3 @@
-# TODO: Search
-# TODO: Tags badge
-# TODO: Google Analistic
-# TODO: Admin page
-# TODO: Email sub
-# TODO: Frontend fix
-# TODO: Backend fix
-# TODO: Contact
-# TODO: Donation
-# TODO: Responsive design
 from flask import Flask, render_template, request, flash, redirect, url_for, session
 from flask_sqlalchemy import SQLAlchemy
 from wtforms import Form, BooleanField, StringField, PasswordField, TextAreaField, DateTimeField, validators
